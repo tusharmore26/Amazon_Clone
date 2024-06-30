@@ -95,7 +95,7 @@ const Registration=()=> {
     setLoading(false)
     setsuccessMsg("Account Created Successfully!")
     setTimeout(()=>{
-        navigate("/")
+        navigate("/signin")
     },3000)
     
     // ...
